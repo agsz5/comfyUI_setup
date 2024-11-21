@@ -1,0 +1,23 @@
+SamplerCustomAdvanced
+CUDA error: operation not supported
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+====== 2nd error:
+http://127.0.0.1:8188/
+=======
+RuntimeError 307
+VAEDecode
+CUDA error: the launch timed out and was terminated
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+=============
+==== 3rd Error
+
+After GPT
+VAEDecode
+CUDA error: the launch timed out and was terminated
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

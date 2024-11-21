@@ -1,0 +1,105 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-18 00:51:47.616] ** ComfyUI startup time: 2024-11-18 00:51:47.616737
+[2024-11-18 00:51:47.645] ** Platform: Windows
+[2024-11-18 00:51:47.646] ** Python version: 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]
+[2024-11-18 00:51:47.646] ** Python executable: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-11-18 00:51:47.647] ** ComfyUI Path: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI
+[2024-11-18 00:51:47.647] ** Log path: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\comfyui.log
+[2024-11-18 00:51:47.655] [ComfyUI-Manager] WARN: Unsafe - SSL verification bypass option is Enabled. (see ComfyUI-Manager/config.ini)
+[2024-11-18 00:51:47.661] 
+Prestartup times for custom nodes:
+[2024-11-18 00:51:47.661]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-11-18 00:51:47.661]    1.2 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 00:51:47.662] 
+Total VRAM 32583 MB, total RAM 32583 MB
+[2024-11-18 00:51:49.694] pytorch version: 2.5.1+cu124
+[2024-11-18 00:51:49.694] Set vram state to: DISABLED
+[2024-11-18 00:51:49.694] Device: cpu
+[2024-11-18 00:51:51.021] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-11-18 00:51:52.732] [Prompt Server] web root: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\web
+[2024-11-18 00:51:53.016] C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-11-18 00:51:53.885] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-18 00:51:53.925] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.8)
+[2024-11-18 00:51:53.963] [Impact Pack] Wildcards loading done.
+[2024-11-18 00:51:53.971] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-18 00:51:54.097] ### ComfyUI Revision: 2808 [69667290] *DETACHED | Released on '2024-11-04'
+[2024-11-18 00:51:54.359] 
+[2024-11-18 00:51:54.360] [92m[rgthree-comfy] Loaded 42 epic nodes. 🎉[00m
+[2024-11-18 00:51:54.361] 
+[2024-11-18 00:51:54.364] 
+Import times for custom nodes:
+[2024-11-18 00:51:54.364]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-11-18 00:51:54.364]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\cg-use-everywhere
+[2024-11-18 00:51:54.365]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-11-18 00:51:54.365]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-11-18 00:51:54.366]    0.1 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-18 00:51:54.366]    0.3 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 00:51:54.366]    0.7 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-AdvancedLivePortrait
+[2024-11-18 00:51:54.367] 
+[2024-11-18 00:51:54.377] Starting server
+
+[2024-11-18 00:51:54.378] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-18 00:51:54.407] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-18 00:51:54.412] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-18 00:51:54.456] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-18 00:51:54.493] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-18 00:51:54.532] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-18 00:51:55.320] FETCH DATA from: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-18 00:52:01.312] got prompt
+[2024-11-18 00:52:01.315] Failed to validate prompt for output 308:
+[2024-11-18 00:52:01.316] * ControlNetLoader 311:
+[2024-11-18 00:52:01.317]   - Value not in list: control_net_name: 'OpenPoseXL2.safetensors' not in ['FLUX.1\\InstantX-FLUX1-Dev-Union\\diffusion_pytorch_model.safetensors', 'sdxl\\OpenPoseXL2.safetensors', 'sdxl\\mistoLine_rank256.safetensors']
+[2024-11-18 00:52:01.317] Output will be ignored
+[2024-11-18 00:52:01.318] Failed to validate prompt for output 84:
+[2024-11-18 00:52:01.319] * UpscaleModelLoader 83:
+[2024-11-18 00:52:01.319]   - Value not in list: model_name: '4x-ClearRealityV1.pth' not in ['ClearRealityV1\\4x-ClearRealityV1.pth', 'ClearRealityV1\\4x-ClearRealityV1_Soft.pth', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1-fp16.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1-fp32.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1_Soft-fp16.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1_Soft-fp32.bin']
+[2024-11-18 00:52:01.320] Output will be ignored
+[2024-11-18 00:52:01.322] Failed to validate prompt for output 179:
+[2024-11-18 00:52:01.322] * UltralyticsDetectorProvider 18:
+[2024-11-18 00:52:01.323]   - Value not in list: model_name: 'bbox/face_yolov8m.pt' not in []
+[2024-11-18 00:52:01.323] Output will be ignored
+[2024-11-18 00:52:01.324] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 00:53:23.375] got prompt
+[2024-11-18 00:53:23.378] Failed to validate prompt for output 308:
+[2024-11-18 00:53:23.379] * ControlNetLoader 311:
+[2024-11-18 00:53:23.380]   - Value not in list: control_net_name: 'OpenPoseXL2.safetensors' not in ['FLUX.1\\InstantX-FLUX1-Dev-Union\\diffusion_pytorch_model.safetensors', 'sdxl\\OpenPoseXL2.safetensors', 'sdxl\\mistoLine_rank256.safetensors']
+[2024-11-18 00:53:23.380] Output will be ignored
+[2024-11-18 00:53:23.381] Failed to validate prompt for output 84:
+[2024-11-18 00:53:23.382] Output will be ignored
+[2024-11-18 00:53:23.383] Failed to validate prompt for output 179:
+[2024-11-18 00:53:23.384] * UltralyticsDetectorProvider 18:
+[2024-11-18 00:53:23.385]   - Value not in list: model_name: 'bbox/face_yolov8m.pt' not in []
+[2024-11-18 00:53:23.386] Output will be ignored
+[2024-11-18 00:53:23.389] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 00:55:22.410] got prompt
+[2024-11-18 00:55:22.413] Failed to validate prompt for output 308:
+[2024-11-18 00:55:22.414] * ControlNetLoader 311:
+[2024-11-18 00:55:22.415]   - Value not in list: control_net_name: 'OpenPoseXL2.safetensors' not in ['FLUX.1\\InstantX-FLUX1-Dev-Union\\diffusion_pytorch_model.safetensors', 'sdxl\\OpenPoseXL2.safetensors', 'sdxl\\mistoLine_rank256.safetensors']
+[2024-11-18 00:55:22.415] Output will be ignored
+[2024-11-18 00:55:22.416] Failed to validate prompt for output 84:
+[2024-11-18 00:55:22.417] * UpscaleModelLoader 83:
+[2024-11-18 00:55:22.417]   - Value not in list: model_name: '4x-ClearRealityV1.pth' not in ['ClearRealityV1\\4x-ClearRealityV1.pth', 'ClearRealityV1\\4x-ClearRealityV1_Soft.pth', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1-fp16.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1-fp32.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1_Soft-fp16.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1_Soft-fp32.bin']
+[2024-11-18 00:55:22.418] Output will be ignored
+[2024-11-18 00:55:22.420] Failed to validate prompt for output 179:
+[2024-11-18 00:55:22.420] * UltralyticsDetectorProvider 18:
+[2024-11-18 00:55:22.421]   - Value not in list: model_name: 'bbox/face_yolov8m.pt' not in []
+[2024-11-18 00:55:22.421] Output will be ignored
+[2024-11-18 00:55:22.423] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 01:00:20.723] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-11-18 01:00:20.887] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2024-11-18 01:00:21.020] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
+[2024-11-18 01:00:21.265] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-11-18 01:00:33.254] Update custom node 'ComfyUI Impact Pack'
+[2024-11-18 01:00:33.255] Update: ['https://github.com/ltdrdata/ComfyUI-Impact-Pack']
+[2024-11-18 01:00:35.371] Update was successful.
+[2024-11-18 01:00:35.371] After restarting ComfyUI, please refresh the browser.
+[2024-11-18 01:02:20.730] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json [DONE]
+[2024-11-18 01:02:30.878] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json [DONE]
+[2024-11-18 01:02:30.975] Install model 'face_yolov8m (bbox)' into 'C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\models\ultralytics/bbox\face_yolov8m.pt'
+[2024-11-18 01:02:31.522] Downloading https://cdn-lfs.hf.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/f02b8a23e6f12bd2c1b1f6714f66f984c728fa41ed749d033e7d6dea511ef70c?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27face_yolov8m.pt%3B+filename%3D%22face_yolov8m.pt%22%3B&Expires=1732143519&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczMjE0MzUxOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlL2YwMmI4YTIzZTZmMTJiZDJjMWIxZjY3MTRmNjZmOTg0YzcyOGZhNDFlZDc0OWQwMzNlN2Q2ZGVhNTExZWY3MGM%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=AxfijwEFAk3ZnDsioHIBA7tcGv5%7Ee9kBzWu300kopcjJSzSBzx0iugA4%7EK9qxbHMAEumHkRn5sUL9m8tq870S0joGHFpQQPoPMcqhwSgvK%7ER5Eqn183CuPUoejZCpkQ7oMmOssQlf4GT5MNs66s87g5FsMlR8FbkXh9hIrCH5GT952PxZFRaTnv5BMLHlXrTj1H7QdA%7EYy5lm50hh3gVpO-bhmd8DkB5MlSbO1liNKc6FaZGoRRzuqM9giMqBHTZTdPU-6pdPMURxqqas2stIdm6QfqR-FO9f-cN6vkwbKuoOJ723sJ-7C99K3vmYRp3UVjytMTb8tMIbACMIqqUNw__&Key-Pair-Id=K3RPWS32NSSJCE to C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\models\ultralytics/bbox\face_yolov8m.pt
+[2024-11-18 01:02:32.590] 100%|█████████████████████████████████████████████████████████████████████████████| 52.0M/52.0M [00:00<00:00, 54.8MB/s]
+[2024-11-18 01:02:33.788] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json [DONE]
+[2024-11-18 01:02:33.887] Install model 'face_yolov8m-seg_60.pt (segm)' into 'C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\models\ultralytics/segm\face_yolov8m-seg_60.pt'
+[2024-11-18 01:02:35.372] Downloading https://objects.githubusercontent.com/github-production-release-asset-2e65be/714932961/8dbbe87d-2c6c-4a67-bcbf-79a0366f9a96?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241117T230234Z&X-Amz-Expires=300&X-Amz-Signature=aa9892095c9494856b609c18421753336c18ac4211f46d5daca716f9dcf34091&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dface_yolov8m-seg_60.pt&response-content-type=application%2Foctet-stream to C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\models\ultralytics/segm\face_yolov8m-seg_60.pt
+[2024-11-18 01:02:37.405] 100%|█████████████████████████████████████████████████████████████████████████████| 54.8M/54.8M [00:01<00:00, 35.7MB/s]

@@ -1,0 +1,178 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-18 01:03:35.796] ** ComfyUI startup time: 2024-11-18 01:03:35.796988
+[2024-11-18 01:03:35.828] ** Platform: Windows
+[2024-11-18 01:03:35.828] ** Python version: 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]
+[2024-11-18 01:03:35.828] ** Python executable: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-11-18 01:03:35.828] ** ComfyUI Path: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI
+[2024-11-18 01:03:35.828] ** Log path: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\comfyui.log
+[2024-11-18 01:03:35.828] [ComfyUI-Manager] WARN: Unsafe - SSL verification bypass option is Enabled. (see ComfyUI-Manager/config.ini)
+[2024-11-18 01:03:35.828] 
+#######################################################################
+[2024-11-18 01:03:35.828] [ComfyUI-Manager] Starting dependency installation/(de)activation for the extension
+[2024-11-18 01:03:35.828] 
+[2024-11-18 01:03:35.843] Install: pip packages for 'C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack'
+[2024-11-18 01:03:37.782]    [SKIP] Downgrading pip package isn't allowed: scipy (cur=1.14.1)
+[2024-11-18 01:03:38.407] Install: install script for 'C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack'
+[!] 
+[2024-11-18 01:03:38.486] [!] [bold yellow]WARN: The `COMFYUI_MODEL_PATH` environment variable is not set. Assuming `C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\models` as the ComfyUI path.[/bold yellow]
+[2024-11-18 01:03:38.486] [!] Traceback (most recent call last):
+[2024-11-18 01:03:46.380] [!]   File "urllib\request.py", line 1344, in do_open
+[2024-11-18 01:03:46.380] [!]   File "http\client.py", line 1336, in request
+[2024-11-18 01:03:46.395] [!]   File "http\client.py", line 1382, in _send_request
+[2024-11-18 01:03:46.395] [!]   File "http\client.py", line 1331, in endheaders
+[2024-11-18 01:03:46.395] [!]   File "http\client.py", line 1091, in _send_output
+[2024-11-18 01:03:46.395] [!]   File "http\client.py", line 1035, in send
+[2024-11-18 01:03:46.395] [!]   File "http\client.py", line 1477, in connect
+[2024-11-18 01:03:46.395] [!]   File "ssl.py", line 455, in wrap_socket
+[2024-11-18 01:03:46.395] [!]   File "ssl.py", line 1041, in _create
+[2024-11-18 01:03:46.395] [!]   File "ssl.py", line 1319, in do_handshake
+[2024-11-18 01:03:46.395] [!] ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+[2024-11-18 01:03:46.395] [!] 
+[2024-11-18 01:03:46.395] [!] During handling of the above exception, another exception occurred:
+[2024-11-18 01:03:46.395] [!] 
+[2024-11-18 01:03:46.395] [!] Traceback (most recent call last):
+[2024-11-18 01:03:46.395] [!]   File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack\impact_subpack\install.py", line 34, in <module>
+[2024-11-18 01:03:46.395] [!]     download_url("https://huggingface.co/Bingsu/adetailer/resolve/main/hand_yolov8s.pt",
+[2024-11-18 01:03:46.395] [!]   File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torchvision\datasets\utils.py", line 122, in download_url
+[2024-11-18 01:03:46.395] [!]     url = _get_redirect_url(url, max_hops=max_redirect_hops)
+[2024-11-18 01:03:46.395] [!]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-18 01:03:46.410] [!]   File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torchvision\datasets\utils.py", line 66, in _get_redirect_url
+[2024-11-18 01:03:46.410] [!]     with urllib.request.urlopen(urllib.request.Request(url, headers=headers)) as response:
+[2024-11-18 01:03:46.410] [!]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 215, in urlopen
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 521, in open
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 630, in http_response
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 553, in error
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 492, in _call_chain
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 745, in http_error_302
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 515, in open
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 532, in _open
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 492, in _call_chain
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 1392, in https_open
+[2024-11-18 01:03:46.410] [!]   File "urllib\request.py", line 1347, in do_open
+[2024-11-18 01:03:46.410] [!] urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>
+[2024-11-18 01:03:46.410] [2024-11-18 01:03:46.816]  ### ComfyUI-Impact-Pack: Check dependencies
+[2024-11-18 01:03:46.816]  ### ComfyUI-Impact-Pack: Updating subpack
+[2024-11-18 01:03:46.816]  [Impact Pack] EXECUTE: ['C:\\Users\\Hugo JL\\Documents\\ComfyUI_windows_portable\\python_embeded\\python.exe', 'install.py'] in 'C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack\impact_subpack'
+[2024-11-18 01:03:46.816]  ### ComfyUI-Impact-Pack: Check basic models
+[2024-11-18 01:03:46.816] 
+[ComfyUI-Manager] Startup script completed.
+[2024-11-18 01:03:47.244] #######################################################################
+[2024-11-18 01:03:47.244] 
+[2024-11-18 01:03:47.260] 
+Prestartup times for custom nodes:
+[2024-11-18 01:03:47.260]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-11-18 01:03:47.260]   12.6 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 01:03:47.260] 
+Total VRAM 32583 MB, total RAM 32583 MB
+[2024-11-18 01:03:49.253] pytorch version: 2.5.1+cu124
+[2024-11-18 01:03:49.253] Set vram state to: DISABLED
+[2024-11-18 01:03:49.253] Device: cpu
+[2024-11-18 01:03:50.561] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-11-18 01:03:52.254] [Prompt Server] web root: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\web
+[2024-11-18 01:03:52.541] C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-11-18 01:03:53.353] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-18 01:03:53.384] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.8)
+[2024-11-18 01:03:53.431] [Impact Pack] Wildcards loading done.
+[2024-11-18 01:03:53.431] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-18 01:03:53.557] ### ComfyUI Revision: 2808 [69667290] *DETACHED | Released on '2024-11-04'
+[2024-11-18 01:03:53.828] 
+[2024-11-18 01:03:53.828] [92m[rgthree-comfy] Loaded 42 exciting nodes. 🎉[00m
+[2024-11-18 01:03:53.828] 
+[2024-11-18 01:03:53.828] 
+Import times for custom nodes:
+[2024-11-18 01:03:53.828]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-11-18 01:03:53.828]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\cg-use-everywhere
+[2024-11-18 01:03:53.828]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-11-18 01:03:53.828]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-11-18 01:03:53.828]    0.1 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-18 01:03:53.828]    0.3 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 01:03:53.828]    0.6 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-AdvancedLivePortrait
+[2024-11-18 01:03:53.828] 
+[2024-11-18 01:03:53.843] Starting server
+
+[2024-11-18 01:03:53.843] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-18 01:03:53.875] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-18 01:03:53.890] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-18 01:03:53.906] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-18 01:03:53.937] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-18 01:03:53.984] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-18 01:03:55.237] FETCH DATA from: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-18 01:04:16.321] got prompt
+[2024-11-18 01:04:16.327] Failed to validate prompt for output 179:
+[2024-11-18 01:04:16.328] * ControlNetLoader 311:
+[2024-11-18 01:04:16.328]   - Value not in list: control_net_name: 'OpenPoseXL2.safetensors' not in ['FLUX.1\\InstantX-FLUX1-Dev-Union\\diffusion_pytorch_model.safetensors', 'sdxl\\OpenPoseXL2.safetensors', 'sdxl\\mistoLine_rank256.safetensors']
+[2024-11-18 01:04:16.329] Output will be ignored
+[2024-11-18 01:04:16.329] Failed to validate prompt for output 308:
+[2024-11-18 01:04:16.329] Output will be ignored
+[2024-11-18 01:04:16.330] Failed to validate prompt for output 84:
+[2024-11-18 01:04:16.330] Output will be ignored
+[2024-11-18 01:04:16.331] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 01:04:34.714] got prompt
+[2024-11-18 01:04:35.293] model weight dtype torch.float32, manual cast: None
+[2024-11-18 01:04:35.295] model_type EPS
+[2024-11-18 01:04:39.066] Using split attention in VAE
+[2024-11-18 01:04:39.069] Using split attention in VAE
+[2024-11-18 01:04:39.801] Requested to load SDXLClipModel
+[2024-11-18 01:04:39.802] Loading 1 new model
+[2024-11-18 01:04:39.817] loaded completely 0.0 1560.802734375 True
+[2024-11-18 01:04:42.435] Warning torch.load doesn't support weights_only on this pytorch version, loading unsafely.
+[2024-11-18 01:05:06.863] WARNING: no VAE provided to the controlnet apply node when this controlnet requires one.
+[2024-11-18 01:05:06.922] Requested to load SDXL
+[2024-11-18 01:05:06.922] Requested to load ControlNetFlux
+[2024-11-18 01:05:06.922] Loading 2 new models
+[2024-11-18 01:05:07.000] loaded completely 0.0 9794.096694946289 True
+[2024-11-18 01:05:07.023] loaded completely 0.0 12595.9453125 True
+[2024-11-18 01:05:07.262] 
+[2024-11-18 01:05:07.294] !!! Exception during processing !!! This Controlnet needs a VAE but none was provided, please use a ControlNetApply node with a VAE input and connect it.
+[2024-11-18 01:05:07.387] Traceback (most recent call last):
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 323, in execute
+    output_data, output_ui, has_subgraph = get_output_data(obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 198, in get_output_data
+    return_values = _map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 169, in _map_node_over_list
+    process_inputs(input_dict, i)
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 158, in process_inputs
+    results.append(getattr(obj, func)(**inputs))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy_extras\nodes_custom_sampler.py", line 633, in sample
+    samples = guider.sample(noise.generate_noise(latent), latent_image, sampler, sigmas, denoise_mask=noise_mask, callback=callback, disable_pbar=disable_pbar, seed=noise.seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 740, in sample
+    output = self.inner_sample(noise, latent_image, device, sampler, sigmas, denoise_mask, callback, disable_pbar, seed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 719, in inner_sample
+    samples = sampler.sample(self, sigmas, extra_args, callback, noise, latent_image, denoise_mask, disable_pbar)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 624, in sample
+    samples = self.sampler_function(model_k, noise, sigmas, extra_args=extra_args, callback=k_callback, disable=disable_pbar, **self.extra_options)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\k_diffusion\sampling.py", line 560, in sample_dpmpp_2s_ancestral
+    denoised = model(x, sigmas[i] * s_in, **extra_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 299, in __call__
+    out = self.inner_model(x, sigma, model_options=model_options, seed=seed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 706, in __call__
+    return self.predict_noise(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 709, in predict_noise
+    return sampling_function(self.inner_model, x, timestep, self.conds.get("negative", None), self.conds.get("positive", None), self.cfg, model_options=model_options, seed=seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 279, in sampling_function
+    out = calc_cond_batch(model, conds, x, timestep, model_options)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 202, in calc_cond_batch
+    c['control'] = control.get_control(input_x, timestep_, c, len(cond_or_uncond))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\comfy\controlnet.py", line 225, in get_control
+    raise ValueError("This Controlnet needs a VAE but none was provided, please use a ControlNetApply node with a VAE input and connect it.")
+ValueError: This Controlnet needs a VAE but none was provided, please use a ControlNetApply node with a VAE input and connect it.
+
+[2024-11-18 01:05:07.403] Prompt executed in 32.68 seconds

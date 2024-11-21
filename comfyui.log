@@ -1,0 +1,259 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-18 01:08:06.361] ** ComfyUI startup time: 2024-11-18 01:08:06.361083
+[2024-11-18 01:08:06.392] ** Platform: Windows
+[2024-11-18 01:08:06.392] ** Python version: 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]
+[2024-11-18 01:08:06.392] ** Python executable: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-11-18 01:08:06.392] ** ComfyUI Path: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI
+[2024-11-18 01:08:06.392] ** Log path: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\comfyui.log
+[2024-11-18 01:08:06.392] [ComfyUI-Manager] WARN: Unsafe - SSL verification bypass option is Enabled. (see ComfyUI-Manager/config.ini)
+[2024-11-18 01:08:06.392] 
+Prestartup times for custom nodes:
+[2024-11-18 01:08:06.392]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-11-18 01:08:06.392]    1.3 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 01:08:06.392] 
+Total VRAM 32583 MB, total RAM 32583 MB
+[2024-11-18 01:08:08.726] pytorch version: 2.5.1+cu124
+[2024-11-18 01:08:08.726] Set vram state to: DISABLED
+[2024-11-18 01:08:08.726] Device: cpu
+[2024-11-18 01:08:10.131] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-11-18 01:08:11.905] [Prompt Server] web root: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\web
+[2024-11-18 01:08:12.186] C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\kornia\feature\lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+[2024-11-18 01:08:13.035] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-18 01:08:13.082] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.8)
+[2024-11-18 01:08:13.122] [Impact Pack] Wildcards loading done.
+[2024-11-18 01:08:13.124] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-18 01:08:13.249] ### ComfyUI Revision: 2808 [69667290] *DETACHED | Released on '2024-11-04'
+[2024-11-18 01:08:13.514] 
+[2024-11-18 01:08:13.514] [92m[rgthree-comfy] Loaded 42 magnificent nodes. 🎉[00m
+[2024-11-18 01:08:13.514] 
+[2024-11-18 01:08:13.514] 
+Import times for custom nodes:
+[2024-11-18 01:08:13.514]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-11-18 01:08:13.514]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\cg-use-everywhere
+[2024-11-18 01:08:13.514]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-11-18 01:08:13.514]    0.0 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-11-18 01:08:13.514]    0.1 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-18 01:08:13.514]    0.3 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-11-18 01:08:13.514]    0.6 seconds: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-AdvancedLivePortrait
+[2024-11-18 01:08:13.514] 
+[2024-11-18 01:08:13.530] Starting server
+
+[2024-11-18 01:08:13.530] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-18 01:08:13.608] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-11-18 01:08:13.671] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-11-18 01:08:13.686] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-11-18 01:08:13.686] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-11-18 01:08:14.521] FETCH DATA from: C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-18 01:08:14.721] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-11-18 01:09:01.326] got prompt
+[2024-11-18 01:09:01.329] Failed to validate prompt for output 308:
+[2024-11-18 01:09:01.330] * ControlNetLoader 311:
+[2024-11-18 01:09:01.331]   - Value not in list: control_net_name: 'OpenPoseXL2.safetensors' not in ['FLUX.1\\InstantX-FLUX1-Dev-Union\\diffusion_pytorch_model.safetensors', 'sdxl\\OpenPoseXL2.safetensors', 'sdxl\\mistoLine_rank256.safetensors']
+[2024-11-18 01:09:01.331] Output will be ignored
+[2024-11-18 01:09:01.332] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 01:09:32.031] got prompt
+[2024-11-18 01:09:32.672] model weight dtype torch.float32, manual cast: None
+[2024-11-18 01:09:32.682] model_type EPS
+[2024-11-18 01:09:39.639] Using split attention in VAE
+[2024-11-18 01:09:39.642] Using split attention in VAE
+[2024-11-18 01:09:40.374] Requested to load SDXLClipModel
+[2024-11-18 01:09:40.375] Loading 1 new model
+[2024-11-18 01:09:40.393] loaded completely 0.0 1560.802734375 True
+[2024-11-18 01:09:52.405] Requested to load SDXL
+[2024-11-18 01:09:52.407] Requested to load ControlNet
+[2024-11-18 01:09:52.408] Loading 2 new models
+[2024-11-18 01:09:52.472] loaded completely 0.0 9794.096694946289 True
+[2024-11-18 01:09:52.514] loaded completely 0.0 4772.240295410156 True
+[2024-11-18 01:35:59.636] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [26:07<00:00, 158.60s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [26:07<00:00, 174.12s/it]
+[2024-11-18 01:35:59.651] Requested to load AutoencoderKL
+[2024-11-18 01:35:59.652] Loading 1 new model
+[2024-11-18 01:35:59.666] loaded completely 0.0 319.11416244506836 True
+[2024-11-18 01:36:42.733] Prompt executed in 1630.70 seconds
+[2024-11-18 01:44:00.206] got prompt
+[2024-11-18 01:44:00.211] Failed to validate prompt for output 179:
+[2024-11-18 01:44:00.211] * (prompt):
+[2024-11-18 01:44:00.215]   - Required input is missing: filename_prefix
+[2024-11-18 01:44:00.217] * ToBasicPipe 95:
+[2024-11-18 01:44:00.218]   - Required input is missing: negative
+[2024-11-18 01:44:00.221]   - Required input is missing: clip
+[2024-11-18 01:44:00.222]   - Required input is missing: positive
+[2024-11-18 01:44:00.222]   - Required input is missing: vae
+[2024-11-18 01:44:00.222]   - Required input is missing: model
+[2024-11-18 01:44:00.223] * UpscaleModelLoader 83:
+[2024-11-18 01:44:00.223]   - Value not in list: model_name: '4x-ClearRealityV1.pth' not in ['ClearRealityV1\\4x-ClearRealityV1.pth', 'ClearRealityV1\\4x-ClearRealityV1_Soft.pth', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1-fp16.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1-fp32.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1_Soft-fp16.bin', 'ClearRealityV1\\BROKEN_NCNN\\4x-ClearRealityV1_Soft-fp32.bin']
+[2024-11-18 01:44:00.224] * UltimateSDUpscale 82:
+[2024-11-18 01:44:00.224]   - Required input is missing: negative
+[2024-11-18 01:44:00.224]   - Required input is missing: positive
+[2024-11-18 01:44:00.225]   - Required input is missing: image
+[2024-11-18 01:44:00.225] * SaveImage 179:
+[2024-11-18 01:44:00.225]   - Required input is missing: filename_prefix
+[2024-11-18 01:44:00.226] Output will be ignored
+[2024-11-18 01:44:00.226] Failed to validate prompt for output 84:
+[2024-11-18 01:44:00.227] Output will be ignored
+[2024-11-18 01:44:00.227] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': 'Required input is missing: filename_prefix', 'extra_info': {}}
+[2024-11-18 01:45:12.217] got prompt
+[2024-11-18 01:45:12.224] Failed to validate prompt for output 179:
+[2024-11-18 01:45:12.224] * (prompt):
+[2024-11-18 01:45:12.225]   - Required input is missing: filename_prefix
+[2024-11-18 01:45:12.226] * ToBasicPipe 95:
+[2024-11-18 01:45:12.227]   - Required input is missing: negative
+[2024-11-18 01:45:12.228]   - Required input is missing: clip
+[2024-11-18 01:45:12.228]   - Required input is missing: positive
+[2024-11-18 01:45:12.229]   - Required input is missing: vae
+[2024-11-18 01:45:12.230]   - Required input is missing: model
+[2024-11-18 01:45:12.230] * UltimateSDUpscale 82:
+[2024-11-18 01:45:12.230]   - Required input is missing: negative
+[2024-11-18 01:45:12.231]   - Required input is missing: positive
+[2024-11-18 01:45:12.231]   - Required input is missing: image
+[2024-11-18 01:45:12.232] * SaveImage 179:
+[2024-11-18 01:45:12.232]   - Required input is missing: filename_prefix
+[2024-11-18 01:45:12.232] Output will be ignored
+[2024-11-18 01:45:12.233] Failed to validate prompt for output 84:
+[2024-11-18 01:45:12.233] Output will be ignored
+[2024-11-18 01:45:12.233] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': 'Required input is missing: filename_prefix', 'extra_info': {}}
+[2024-11-18 01:45:37.436] got prompt
+[2024-11-18 01:45:37.441] Failed to validate prompt for output 308:
+[2024-11-18 01:45:37.442] * LoraLoader 312:
+[2024-11-18 01:45:37.442]   - Value not in list: lora_name: 'sdxl\SDXL1.0_Essenz-series-by-AI_Characters_Style_NausicaäOfTheValleyOfTheWindHayaoMyazaki-v1.2.safetensors' not in []
+[2024-11-18 01:45:37.443] Output will be ignored
+[2024-11-18 01:45:37.448] Failed to validate prompt for output 179:
+[2024-11-18 01:45:37.448] Output will be ignored
+[2024-11-18 01:45:37.449] Failed to validate prompt for output 84:
+[2024-11-18 01:45:37.449] Output will be ignored
+[2024-11-18 01:45:37.450] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 01:46:11.513] got prompt
+[2024-11-18 01:46:11.518] Failed to validate prompt for output 308:
+[2024-11-18 01:46:11.519] * LoraLoader 312:
+[2024-11-18 01:46:11.519]   - Required input is missing: lora_name
+[2024-11-18 01:46:11.520] Output will be ignored
+[2024-11-18 01:46:11.526] Failed to validate prompt for output 179:
+[2024-11-18 01:46:11.526] Output will be ignored
+[2024-11-18 01:46:11.529] Failed to validate prompt for output 84:
+[2024-11-18 01:46:11.530] Output will be ignored
+[2024-11-18 01:46:11.530] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-11-18 01:48:15.328] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-11-18 01:48:15.671] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2024-11-18 01:48:15.946] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
+[2024-11-18 01:48:49.250] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-11-18 01:48:49.422] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2024-11-18 01:48:49.568] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json [DONE]
+[2024-11-18 01:48:49.807] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json [DONE]
+[2024-11-18 01:54:02.007] got prompt
+[2024-11-18 01:54:02.028] Warning torch.load doesn't support weights_only on this pytorch version, loading unsafely.
+[2024-11-18 01:54:02.352] Canva size: 4096x4096
+[2024-11-18 01:54:02.352] Image size: 1024x1024
+[2024-11-18 01:54:02.352] Scale factor: 4
+[2024-11-18 01:54:02.352] Upscaling iteration 1 with scale factor 4
+[2024-11-18 01:54:07.253] Tile size: 1024x1024
+[2024-11-18 01:54:07.253] Tiles amount: 16
+[2024-11-18 01:54:07.254] Grid: 4x4
+[2024-11-18 01:54:07.254] Redraw enabled: True
+[2024-11-18 01:54:07.254] Seams fix mode: NONE
+[2024-11-18 02:17:17.314] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:51<00:00, 157.79s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:51<00:00, 171.42s/it]
+[2024-11-18 02:40:51.854] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:36<00:00, 150.50s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:36<00:00, 169.54s/it]
+[2024-11-18 03:04:10.194] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:19<00:00, 150.97s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:19<00:00, 167.49s/it]
+[2024-11-18 03:27:52.369] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:39<00:00, 149.23s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [22:39<00:00, 169.88s/it]
+[2024-11-18 03:49:14.234] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [20:22<00:00, 134.70s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [20:22<00:00, 152.86s/it]
+[2024-11-18 04:15:21.974] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [25:12<00:00, 178.91s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [25:12<00:00, 189.04s/it]
+[2024-11-18 04:39:44.463] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [23:17<00:00, 151.81s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [23:17<00:00, 174.65s/it]
+[2024-11-18 05:00:38.389] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:57<00:00, 136.51s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:57<00:00, 149.70s/it]
+[2024-11-18 05:21:15.219] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:35<00:00, 132.48s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:35<00:00, 146.91s/it]
+[2024-11-18 05:41:54.388] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:43<00:00, 132.99s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:43<00:00, 147.95s/it]
+[2024-11-18 06:02:58.234] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [20:08<00:00, 135.69s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [20:08<00:00, 151.05s/it]
+[2024-11-18 06:23:47.369] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:53<00:00, 131.76s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:53<00:00, 149.15s/it]
+[2024-11-18 06:44:31.266] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:49<00:00, 136.04s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:49<00:00, 148.74s/it]
+[2024-11-18 07:05:10.126] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:43<00:00, 133.06s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:43<00:00, 147.92s/it]
+[2024-11-18 07:25:46.572] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:40<00:00, 130.18s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [19:40<00:00, 147.61s/it]
+[2024-11-18 07:45:25.246] 100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [18:45<00:00, 126.08s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 8/8 [18:45<00:00, 140.66s/it]
+[2024-11-18 07:46:00.779] !!! Exception during processing !!! CUDA error: operation not supported
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[2024-11-18 07:46:00.919] Traceback (most recent call last):
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 323, in execute
+    output_data, output_ui, has_subgraph = get_output_data(obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 198, in get_output_data
+    return_values = _map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 169, in _map_node_over_list
+    process_inputs(input_dict, i)
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\execution.py", line 158, in process_inputs
+    results.append(getattr(obj, func)(**inputs))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack\modules\impact\impact_pack.py", line 1396, in doit
+    enhanced_img, cropped_enhanced, cropped_enhanced_alpha, mask, cnet_pil_list = FaceDetailer.enhance_face(
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack\modules\impact\impact_pack.py", line 525, in enhance_face
+    segs = bbox_detector.detect(image, bbox_threshold, bbox_dilation, bbox_crop_factor, drop_size, detailer_hook=detailer_hook)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack\impact_subpack\impact\subcore.py", line 137, in detect
+    detected_results = inference_bbox(self.bbox_model, core.tensor2pil(image), threshold)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack\impact_subpack\impact\subcore.py", line 43, in inference_bbox
+    pred = model(image, conf=confidence, device=device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\ultralytics\engine\model.py", line 176, in __call__
+    return self.predict(source, stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\ultralytics\engine\model.py", line 547, in predict
+    self.predictor.setup_model(model=self.model, verbose=is_cli)
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\ultralytics\engine\predictor.py", line 304, in setup_model
+    self.model = AutoBackend(
+                 ^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\ultralytics\nn\autobackend.py", line 146, in __init__
+    model = weights.to(device)
+            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1340, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\ultralytics\nn\tasks.py", line 258, in _apply
+    self = super()._apply(fn)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 927, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "C:\Users\Hugo JL\Documents\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1326, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: operation not supported
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+[2024-11-18 07:46:00.922] Prompt executed in 21118.84 seconds
+[2024-11-18 11:11:07.765] got prompt
+[2024-11-18 11:33:57.611] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:46<00:00, 135.85s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:46<00:00, 151.78s/it]
+[2024-11-18 11:34:30.706] Prompt executed in 1402.93 seconds
+[2024-11-18 11:41:51.099] got prompt
+[2024-11-18 11:41:51.188] got prompt
+[2024-11-18 12:03:56.858] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:04<00:00, 127.58s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:04<00:00, 147.13s/it]
+[2024-11-18 12:04:26.606] Prompt executed in 1355.50 seconds
+[2024-11-18 12:04:26.739] Prompt executed in 0.01 seconds
+[2024-11-18 12:30:53.342] got prompt
+[2024-11-18 12:52:37.115] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [21:39<00:00, 127.45s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [21:39<00:00, 144.44s/it]
+[2024-11-18 12:53:07.852] Prompt executed in 1334.48 seconds
+[2024-11-18 15:39:27.778] got prompt
+[2024-11-18 16:03:09.534] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [23:41<00:00, 137.91s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [23:41<00:00, 157.97s/it]
+[2024-11-18 16:03:42.590] Prompt executed in 1454.81 seconds
+[2024-11-18 18:38:04.823] got prompt
+[2024-11-18 19:00:29.485] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:24<00:00, 133.66s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:24<00:00, 149.40s/it]
+[2024-11-18 19:01:02.257] Prompt executed in 1377.44 seconds
+[2024-11-18 19:14:06.369] got prompt
+[2024-11-18 19:36:47.171] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:40<00:00, 135.57s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:40<00:00, 151.20s/it]
+[2024-11-18 19:37:19.605] Prompt executed in 1393.23 seconds
+[2024-11-18 19:55:34.790] got prompt
+[2024-11-18 20:18:30.595] 100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:55<00:00, 136.08s/it]100%|███████████████████████████████████████████████████████████████████████████████████| 9/9 [22:55<00:00, 152.86s/it]
+[2024-11-18 20:19:03.792] Prompt executed in 1409.00 seconds
