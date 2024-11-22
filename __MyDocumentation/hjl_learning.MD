@@ -311,3 +311,8 @@ pip install -r requirements.txt
 echo "export PYTHONHTTPSVERIFY=0" >> ~/.bashrc
 
 ============================================
+Script to do Upscaling
+
+The script shouldn't look for a specific .jpg/.png filename... rather process ANY _.jpg / _.png
+The script should append "\_4xUpscaled" to the existing input _.jpg or _.png name... if that name exists, then ALSO append an incremental "\_001", "\_002" nomenclature
+The script should not look for a specific "4x-ClearRealityV1.pth" model... rather a "\*.pth" model... (I want the script to be flexible so I can just remove whatever .pth is there and replace it for a different .pth, without me having to adjust the script each time)
